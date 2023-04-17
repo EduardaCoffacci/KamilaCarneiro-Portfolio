@@ -1,0 +1,17 @@
+.menu-top {
+  width: 100%;
+}
+.menu-top .home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.menu-top .home img {
+  margin-top: 60px;
+  width: 250px;
+  border-radius: 125px;
+}
+.menu-top .home h2{
+    font-size: 40px;
+}

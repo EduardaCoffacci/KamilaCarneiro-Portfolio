@@ -1,0 +1,104 @@
+@media (max-width: 1069px) {
+  .conhecimentos-lista {
+    width: 100%;
+    display: flex;
+  }
+  .conhecimentos-lista .conhecimento-item {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1040px) {
+  .conhecimentos-lista {
+    width: 100%;
+  }
+  .conhecimentos-lista .conhecimento-item {
+    width: 100%;
+  }
+  .lista-vagas {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .lista-vagas .vagas-item {
+    width: 40%;
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lista-vagas .vagas-item {
+    width: 40%;
+    height: 200px;
+  }
+}
+
+@media (max-width: 425px) {
+  .conhecimentos-lista {
+    width: 90%;
+  }
+  .conhecimentos-lista .conhecimento-item {
+    width: 100%;
+    height: 100px;
+    padding: 40px;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+  .lista-vagas {
+    width: 100%;
+  }
+  .lista-vagas .vagas-item {
+    width: 100%;
+    height: 40%;
+  }
+  .botao-orcamento {
+    width: 100%;
+  }
+  .botao-orcamento a {
+    width: 200px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 655px) {
+  .conhecimentos-lista {
+    width: 90%;
+  }
+  .conhecimentos-lista .conhecimento-item {
+    width: 100%;
+    height: 100px;
+    padding: 40px;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+  .lista-vagas {
+    width: 100%;
+  }
+  .lista-vagas .vagas-item {
+    width: 100%;
+    height: 40%;
+  }
+}
+@media (max-width: 320px) {
+  .conhecimentos-lista {
+    width: 90%;
+  }
+  .conhecimentos-lista .conhecimento-item {
+    width: 100%;
+    height: 100px;
+    padding: 40px;
+    margin: 0 auto;
+    font-size: 13px;
+  }
+}
+@media (max-width: 657px) {
+  .botao-orcamento {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .botao-orcamento a {
+    font-size: 12px;
+  }
+}
+

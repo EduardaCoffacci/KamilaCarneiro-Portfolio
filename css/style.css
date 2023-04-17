@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Slab:wght@400;500&display=swap');
+@import "./global/global.css";
+@import "./header/header.css";
+@import "./home/home.css";
+@import "./sobre/sobre.css";
+@import "./consultoria/consultoria.css";
+@import "./vagas/vagas.css";
+@import "./contato/contato.css";
+@import "./responsivo/responsivo.css";
+@import "./footer/footer.css";
+
+
+

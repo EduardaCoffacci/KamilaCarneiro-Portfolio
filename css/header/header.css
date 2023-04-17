@@ -1,0 +1,29 @@
+header {
+  width: 100vw;
+  background-color: #000;
+  position: fixed;
+  min-height: 30px;
+  opacity: 0.7;
+}
+.container {
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+.container .logo {
+  color: aliceblue;
+}
+.menu .redes-sociais {
+  display: flex;
+  gap: 15px;
+  margin-right: 20px;
+}
+.menu .redes-sociais a {
+  color: #fff;
+}
+.menu .social-item a i:hover {
+  transform: scale(1.3);
+}

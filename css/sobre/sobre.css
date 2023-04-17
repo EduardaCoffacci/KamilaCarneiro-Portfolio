@@ -1,0 +1,21 @@
+#sobre-mim {
+  width: 100%;
+}
+.sobre-mim > h1 {
+  margin-top: 40px;
+}
+.sobre-mim {
+  max-width: 1600px;
+}
+.sobre-mim p {
+  max-width: 90ch;
+}
+.sobre-mim .profissao {
+  text-align: center;
+}
+.sobre-mim .img-logo {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
