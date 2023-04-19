@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Slab:wght@400;500&display=swap');
-@import "./global/global.css";
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto+Slab:wght@400;500&display=swap");
 @import "./header/header.css";
 @import "./home/home.css";
 @import "./sobre/sobre.css";
@@ -9,5 +8,33 @@
 @import "./responsivo/responsivo.css";
 @import "./footer/footer.css";
 
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
 
+body {
+  color: aliceblue;
+  font-size: 20px;
+  background-image: url("../images/imagem-fundo.png");
+  background: url("../images/imagem-fundo.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Roboto Slab", serif;
+  object-fit: cover;
+}
 
+main {
+  max-width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #000;
+  opacity: 0.9;
+  width: 90ch;
+  padding: 20px;
+}

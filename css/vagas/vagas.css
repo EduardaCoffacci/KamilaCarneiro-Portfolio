@@ -1,5 +1,5 @@
 .area-vagas {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 .lista-vagas {
   width: 90%;
@@ -9,10 +9,11 @@
   margin: 0 auto;
   gap: 20px;
   margin-top: 80px;
+  flex-wrap: wrap;
 }
 
 .lista-vagas li {
-  width: 50%;
+  width: 23%;
   height: 180px;
   border: 2px solid #fff;
   border-radius: 10px;

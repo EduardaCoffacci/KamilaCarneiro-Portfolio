@@ -59,6 +59,28 @@
     width: 200px;
     font-size: 12px;
   }
+  .container > h3 {
+    font-size: 18px;
+  }
+  .home .img img {
+    width: 220px;
+  }
+  .nome {
+    font-size: 20px;
+  }
+  .titulo {
+    font-size: 22px;
+  }
+  .profissao {
+    font-size: 14px;
+  }
+  .menu .redes-sociais a{
+    font-size: 18px;
+  }
+  .menu .redes-sociais{
+    margin-right: 0px;
+  }
+  
 }
 @media (max-width: 655px) {
   .conhecimentos-lista {
@@ -101,4 +123,6 @@
     font-size: 12px;
   }
 }
-
+@media (max-width: 425px){
+ 
+}
