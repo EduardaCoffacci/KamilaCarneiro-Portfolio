@@ -42,7 +42,7 @@ main {
 
 [data-anime]{
   /*opacity: 0;*/
-  transition: .9s;
+  transition: .5s;
 }
 
 [data-anime="left"]{
