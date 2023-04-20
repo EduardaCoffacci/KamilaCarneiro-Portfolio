@@ -38,4 +38,32 @@ main {
   width: 90ch;
   padding: 20px;
 }
+/*animação*/
+
+[data-anime]{
+  /*opacity: 0;*/
+  transition: .9s;
+}
+
+[data-anime="left"]{
+  transform:translate3d(-50px, 0, 0);  
+}
+
+[data-anime="right"]{
+  transform: translate3d(50px, 0, 0);
+
+}
+[data-anime="top"]{
+  transform: translate3d(0, -50px, 0);
+
+}
+[data-anime].animate{
+  opacity:1;
+  transform: translate3d(0px, 0px, 0px);
+}
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
 
