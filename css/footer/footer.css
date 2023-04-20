@@ -1,0 +1,21 @@
+.end {
+  margin-top: 15px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000;
+  opacity: 0.9;
+}
+.last-text {
+  font-size: 14px;
+}
+.top i {
+  border-radius: 10px;
+  font-size: 15px;
+  color: #fff;
+  border: 2px solid #fff;
+  padding:5px;
+  
+}
