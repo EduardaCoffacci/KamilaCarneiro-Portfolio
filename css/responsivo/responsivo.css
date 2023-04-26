@@ -1,10 +1,11 @@
 @media (max-width: 1069px) {
   .conhecimentos-lista {
-    width: 100%;
+    width: 90%;
     display: flex;
   }
   .conhecimentos-lista .conhecimento-item {
     width: 40%;
+    height: 200px;
   }
 }
 
@@ -40,13 +41,12 @@
   }
   .conhecimentos-lista .conhecimento-item {
     width: 100%;
-    height: 100px;
     padding: 40px;
     margin: 0 auto;
     font-size: 13px;
   }
   .conhecimentos .titulo {
-    font-size:20px;
+    font-size: 20px;
   }
   .lista-vagas {
     width: 100%;
@@ -90,7 +90,6 @@
   }
   .conhecimentos-lista .conhecimento-item {
     width: 100%;
-    height: 100px;
     padding: 40px;
     margin: 0 auto;
     font-size: 13px;
@@ -109,7 +108,7 @@
   }
   .conhecimentos-lista .conhecimento-item {
     width: 100%;
-    height: 100px;
+    height: 180px;
     padding: 40px;
     margin: 0 auto;
     font-size: 13px;

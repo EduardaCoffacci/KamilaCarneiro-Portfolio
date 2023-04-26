@@ -1,26 +1,33 @@
-.conhecimentos{
-  width:90%;
-  margin:auto;
-  margin-top:40px;
+.conhecimentos {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  margin-top: 20px
 }
 .conhecimentos-lista {
   margin: 0 auto;
-  width:90%;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   margin-top: 30px;
 }
+.conhecimentos-lista img {
+  width: 50px;
+  height: 50px;
+}
 .conhecimentos-lista li {
   text-align: center;
-  width: 350px;
-  height: 100px;
+  width: 380px;
+  height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: #fff;
   border: 2px solid #fff;
-  padding: 20px 30px;
+  padding: 80px 30px;
   margin: 0 auto;
   border-radius: 15px;
   color: #000;
@@ -32,14 +39,9 @@
   margin: 0 auto;
   border-radius: 15px;
   color: #fff;
+  padding: 80px 30px;
 }
 
-.conhecimentos-lista .conhecimento-item span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
 .botao-orcamento {
   display: flex;
   align-items: center;
