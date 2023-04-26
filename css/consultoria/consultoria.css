@@ -1,19 +1,19 @@
-
-.container {
-  width: 100%;
+.conhecimentos{
+  width:90%;
+  margin:auto;
 }
 .conhecimentos-lista {
   margin: 0 auto;
-  max-width: 80%;
+  width:90%;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
   margin-top: 70px;
 }
 .conhecimentos-lista li {
   text-align: center;
   width: 350px;
-  height: 60px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,6 @@
   align-items: center;
   justify-content: center;
   margin-top: 60px;
-
 }
 .botao-orcamento a {
   display: flex;
@@ -60,8 +59,8 @@
   position: relative;
   transition: 1.5s;
 }
-.botao-orcamento a:hover{
-  color:#000;
+.botao-orcamento a:hover {
+  color: #000;
   border: none;
   font-weight: 600;
 }
@@ -77,9 +76,7 @@
   transition: 0.8s;
   border-radius: 20px;
   color: black;
-
 }
 .botao-orcamento a:hover::before {
   width: 100%;
-  
 }

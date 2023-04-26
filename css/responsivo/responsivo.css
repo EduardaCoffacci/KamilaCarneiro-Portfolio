@@ -112,6 +112,9 @@
     margin: 0 auto;
     font-size: 13px;
   }
+  .sobre-mim .nome{
+    font-size:25px;
+  }
 }
 @media (max-width: 657px) {
   .botao-orcamento {
@@ -122,7 +125,4 @@
   .botao-orcamento a {
     font-size: 12px;
   }
-}
-@media (max-width: 425px){
- 
 }

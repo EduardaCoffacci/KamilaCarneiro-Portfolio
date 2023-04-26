@@ -1,11 +1,15 @@
 #sobre-mim {
   width: 100%;
 }
-.sobre-mim > h1 {
-  margin-top: 40px;
+.sobre-mim .nome {
+  font-size: 40px;
 }
 .sobre-mim {
-  max-width: 1600px;
+  width: 90%;
+  margin: auto;
+}
+.sobre-mim .titulo{
+  margin-top:60px;
 }
 .sobre-mim p {
   max-width: 90ch;
