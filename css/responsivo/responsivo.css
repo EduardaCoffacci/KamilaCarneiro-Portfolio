@@ -45,6 +45,9 @@
     margin: 0 auto;
     font-size: 13px;
   }
+  .conhecimentos .titulo {
+    font-size:20px;
+  }
   .lista-vagas {
     width: 100%;
   }
@@ -65,22 +68,21 @@
   .home .img img {
     width: 220px;
   }
-  .nome {
-    font-size: 20px;
+  .sobre-mim .nome {
+    font-size: 25px;
   }
-  .titulo {
-    font-size: 22px;
+  .sobre-mim .titulo {
+    font-size: 25px;
   }
-  .profissao {
-    font-size: 14px;
+  .sobre-mim .profissao {
+    font-size: 25px;
   }
-  .menu .redes-sociais a{
+  .menu .redes-sociais a {
     font-size: 18px;
   }
-  .menu .redes-sociais{
+  .menu .redes-sociais {
     margin-right: 0px;
   }
-  
 }
 @media (max-width: 655px) {
   .conhecimentos-lista {
@@ -112,8 +114,8 @@
     margin: 0 auto;
     font-size: 13px;
   }
-  .sobre-mim .nome{
-    font-size:25px;
+  .sobre-mim .nome {
+    font-size: 25px;
   }
 }
 @media (max-width: 657px) {
@@ -124,5 +126,10 @@
   }
   .botao-orcamento a {
     font-size: 12px;
+  }
+}
+@media (max-width: 1075px) {
+  .lista-vagas {
+    width: 100%;
   }
 }

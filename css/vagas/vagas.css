@@ -2,7 +2,7 @@
 .area-vagas {
   width:90%;
   margin:auto;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .lista-vagas {
   width: 90%;
@@ -11,7 +11,7 @@
   justify-content: center;
   margin: 0 auto;
   gap: 20px;
-  margin-top: 80px;
+  margin-top: 40px;
   flex-wrap: wrap;
 }
 
