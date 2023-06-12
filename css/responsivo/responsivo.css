@@ -35,7 +35,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 443px) {
   .conhecimentos-lista {
     width: 90%;
   }
@@ -44,6 +44,9 @@
     padding: 40px;
     margin: 0 auto;
     font-size: 13px;
+  }
+  .conhecimentos-lista .conhecimento-item img {
+    width: 40px;
   }
   .conhecimentos .titulo {
     font-size: 20px;
@@ -82,6 +85,10 @@
   }
   .menu .redes-sociais {
     margin-right: 0px;
+  }
+  #logo{
+    font-size:19px;
+    letter-spacing: 0;
   }
 }
 @media (max-width: 655px) {
