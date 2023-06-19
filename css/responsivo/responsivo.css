@@ -139,3 +139,10 @@
     width: 100%;
   }
 }
+@media (max-width:443px){
+  .home .img img {
+    width: 200px;
+    height:200px;
+    border-radius:100px;
+  }
+}
