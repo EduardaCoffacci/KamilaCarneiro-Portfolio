@@ -9,8 +9,10 @@
 }
 .menu-top .home img {
   margin-top: 60px;
-  width: 250px;
-  border-radius: 125px;
+  width: 260px;
+  height: 260px;
+  border-radius: 130px;
+  
 }
 .menu-top .home h2{
     font-size: 40px;
