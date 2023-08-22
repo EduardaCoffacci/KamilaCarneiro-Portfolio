@@ -6,7 +6,7 @@
 }
 .conhecimentos-lista {
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
   height:100%;
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +15,7 @@
 }
 .conhecimentos-lista li {
   text-align: center;
-  width: 380px;
+  width: 320px;
   height: 200px;
   display: flex;
   justify-content: center;
@@ -54,7 +54,7 @@
   border: 2px solid white;
   color: #fff;
   background-color: transparent;
-  border-radius: 20px;
+  border-radius: 30px;
   position: relative;
   transition: 1.5s;
 }
@@ -75,6 +75,7 @@
   transition: 0.8s;
   border-radius: 20px;
   color: black;
+  border-radius: 30px;
 }
 .botao-orcamento a:hover::before {
   width: 100%;
